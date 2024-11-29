@@ -15,10 +15,5 @@ class BeprojectStatsServiceProvider extends ServiceProvider
     {
         // Load routes
         $this->loadRoutesFrom(__DIR__.'/../Routes/routes.php');
-
-        // Optional: Publish configuration
-        $this->publishes([
-            __DIR__.'/../config/beproject-stats.php' => config_path('beproject-stats.php'),
-        ], 'beproject-stats-config');
     }
 }
