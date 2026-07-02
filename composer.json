@@ -1,28 +1,28 @@
 {
-    "name": "beproject/monitor",
-    "description": "Ajoute des routes donnant des stats basique sur l'\u0000tat du serveur",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Beproject\\Monitor\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Jonathan FAUCHER",
-            "email": "jonathan.faucher@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.4|^8.0",
-        "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Beproject\\Monitor\\Providers\\BeprojectStatsServiceProvider"
-            ]
-        }
+  "name": "beproject/monitor",
+  "description": "Ajoute des routes donnant des stats basique sur l'\u0000tat du serveur",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Beproject\\Monitor\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Jonathan FAUCHER",
+      "email": "jonathan.faucher@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0|^14.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Beproject\\Monitor\\Providers\\BeprojectStatsServiceProvider"
+      ]
+    }
+  }
 }
